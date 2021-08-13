@@ -116,7 +116,7 @@ remote-cert-tls server
 # See also the ncp-cipher option in the manpage
 ;cipher AES-256-CBC
 cipher AES-256-GCM
-auth SHA25
+auth SHA256
 key-direction 1
 ; script-security 2
 ; up /etc/openvpn/update-resolv-conf
